@@ -1,0 +1,132 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Bertram",
+            "email": "Sister.Luettgen39@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Christy",
+            "email": "SisterFelicita.Koepp41@hotmail.com"
+        },
+        {
+            "id": 3,
+            "name": "Bertram",
+            "email": "Timmy.Ruecker9@yahoo.com"
+        },
+        {
+            "id": 4,
+            "name": "Michel",
+            "email": "Michel.Ritchie@yahoo.com"
+        },
+        {
+            "id": 5,
+            "name": "Graham",
+            "email": "Graham_Ebert7@gmail.com"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "userId": 1,
+            "loyaltyNumbew": 470572061
+        },
+        {
+            "id": 2,
+            "userId": 4,
+            "loyaltyNumbew": 187097169
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 2,
+            "startDate": "Wed Apr 20 2022 06:41:48 GMT-0500 (Central Daylight Time)",
+            "payRate": 14.00,
+            "storeId": 1
+        },
+        {
+            "id": 2,
+            "userId": 3,
+            "startDate": "Fri Jul 02 2021 14:04:48 GMT-0500 (Central Daylight Time)",
+            "payRate": 15.00,
+            "storeId": 2
+        },
+        {
+            "id": 3,
+            "userId": 5,
+            "startDate": "Mon Mar 07 2022 09:42:17 GMT-0600 (Central Standard Time))",
+            "payRate": 14.00,
+            "storeId": 3
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "75284 Wallace Gardens",
+            "squareFeet": 1000
+        },
+        {
+            "id": 2,
+            "address": "56859 Yadira Crossroad",
+            "squareFeet": 950
+        },
+        {
+            "id": 3,
+            "address": "424 Marks Field",
+            "squareFeet": 1060
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "peach rings",
+            "typeId": 1,
+            "price": 0.25
+        },
+        {
+            "id": 2,
+            "name": "chocolate bar",
+            "typeId": 2,
+            "price": 1.25
+        },
+        {
+            "id": 3,
+            "name": "Jaw Breaker",
+            "typeId": 3,
+            "price": 0.50
+        },
+        {
+            "id": 4,
+            "name": "Giant Snickers",
+            "typeId": 3,
+            "price": 4.00
+        }
+
+    ],
+    "productsTypes": [
+        {
+            "id": 1,
+            "typeName": "GUMMIES/TAFFY"
+        },
+        {
+            "id": 2,
+            "typeName": "CHOCOLATE"
+        },
+        {
+            "id": 3,
+            "typeName": "Hard Candy"
+
+        }
+
+    ],
+    "purchases": [
+        {
+            "id": 0,
+            "customerId": 0,
+            "productId": 0,
+            "quantity": 0
+        }
+    ]
+}
